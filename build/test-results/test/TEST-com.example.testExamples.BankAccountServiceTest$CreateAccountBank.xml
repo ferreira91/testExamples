@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.testExamples.BankAccountServiceTest$CreateAccountBank" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-08T17:49:33" hostname="ZUP-006412" time="0.129">
+  <properties/>
+  <testcase name="should add a new account bank and get an account()" classname="com.example.testExamples.BankAccountServiceTest$CreateAccountBank" time="0.129"/>
+  <system-out><![CDATA[14:49:33.597 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for BankAccountRepository name=bankAccountRepository#1
+14:49:33.865 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for BankAccount name=child of bankAccountRepository#1#2
+14:49:33.871 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering kotlin.Unit on BankAccountRepository(bankAccountRepository#1).add(com.example.testExamples.BankAccount@26990c2d)
+14:49:33.872 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering com.example.testExamples.BankAccount@26990c2d on BankAccountRepository(bankAccountRepository#1).get(0001)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
